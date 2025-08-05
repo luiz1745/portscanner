@@ -1,34 +1,35 @@
-Port Scanner Simples em Python
-Um script básico para escanear portas abertas em um host específico usando sockets em Python.
+🔍 Port Scanner Simples em Python
+Um script leve e eficiente para identificar portas TCP abertas em um host específico, usando a biblioteca padrão socket do Python.
 
-Como funciona
-O script tenta conectar a todas as portas TCP de 1 a 6534 no endereço IP definido na variável LHOST.
+⚙️ Como funciona
+O scanner tenta conectar sequencialmente a todas as portas TCP entre 1 e 6534 no IP configurado.
 
-Para cada porta, ele verifica se está aberta.
+Para cada tentativa, se a conexão for aceita, a porta é considerada aberta e mostrada no console.
 
-Se a conexão for bem-sucedida, ele imprime a porta como aberta.
+Fácil de personalizar para qualquer IP da sua rede ou alvo permitido.
 
-Uso
-Altere o valor da variável LHOST para o IP do host que deseja escanear.
+🚀 Como usar
+Defina o endereço IP desejado alterando a variável LHOST no script.
 
-Execute o script com Python 3:
+Execute o script com Python 3 no terminal:
 
 bash
 Copiar
 Editar
 python3 portscanner.py
-Aguarde os resultados, portas abertas serão listadas no terminal.
+Espere o resultado, as portas abertas aparecerão listadas.
 
-Atenção
-Use esse script apenas em redes e dispositivos que você tem permissão para escanear.
+⚠️ Avisos importantes
+Utilize este scanner apenas em redes e dispositivos que você tem permissão explícita para testar.
 
-Escanear redes sem autorização pode ser ilegal.
+Escanear redes sem autorização pode infringir leis locais e termos de uso.
 
-Requisitos
-Python 3.x
+📋 Requisitos
+Python 3.x instalado
 
-Biblioteca padrão socket (já incluída no Python)
+Biblioteca padrão socket (já inclusa no Python)
 
-Contato
-Dúvidas ou melhorias? Me chama!
+🤝 Contato
+Dúvidas, sugestões ou colaborações? Me chama!
 Luiz (xiaodree)
+
